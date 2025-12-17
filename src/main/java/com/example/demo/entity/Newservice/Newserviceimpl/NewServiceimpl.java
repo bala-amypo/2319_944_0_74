@@ -9,5 +9,9 @@ public class NewfileServiceImpl implements NewfileService{
 
     private final NewfileRepo rep;
 
+   public NewfileEntity savedata(NewfileRepo rep){
+        this.rep=rep;
 
+    }
+    @over
 }
