@@ -13,5 +13,10 @@ public class NewfileServiceImpl implements NewfileService{
         this.rep=rep;
 
     }
-    @over
+    @override
+    public NewfileEntity savedata(NewfileEntity newfile){
+        return rep.save(newfile);
+    }
+
+    
 }
