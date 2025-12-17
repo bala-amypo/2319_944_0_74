@@ -24,8 +24,10 @@ public class NewfileServiceImpl implements NewfileService{
     }
     @override
     public List<NewfileEntity> getall(){
-        return rep.findAll
+        return rep.findAll();
     }
+
+    @
     }
 
 
