@@ -5,4 +5,9 @@ import com.example.demo.newentity.NewfileEntity;
 import com.example.demo.newrepository.NewfileRepo;
 import com.example.demo.newservice.NewfileService;
 @Service
-public class NewfileServiceImpl impleliment
+public class NewfileServiceImpl implements NewfileService{
+
+    private final NewfileRepo rep;
+
+
+}
