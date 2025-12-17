@@ -27,7 +27,7 @@ public class NewfileServiceImpl implements NewfileService{
         return rep.findAll();
     }
 
-    @
+    @ 
     }
 
 
